@@ -75,7 +75,7 @@ useEffect(()=>{
     setAlbmObj({albmName, imgArr:newImgArr});
   
   }
-}, [newImgArr])
+}, [newImgArr,albmObj.albmName])
 // Effect hook to fetch album data from Firestore based on album ID
   useEffect(() => {
     const fetchDocumentData = async () => {
