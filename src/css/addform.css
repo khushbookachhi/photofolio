@@ -1,0 +1,30 @@
+
+.albumForm{
+  margin: 2rem auto;
+  text-align: left;
+  padding:25px;
+    width: 50vw;
+    background-color: rgb(230, 227, 245);
+    border-radius: 10px;
+   
+}
+.input{
+    width: 30vw !important;
+    padding:10px;
+    border-radius: 20px !important;
+    border: none;
+    display: inline !important;
+}
+.imgInput{
+  padding:10px;
+  border-radius: 30px !important;
+  border: none;
+}
+.btn-group{
+  margin-left:12rem;
+}
+.btn-group button{
+  margin-top:-15px;
+  border-radius:5px !important;
+}
+

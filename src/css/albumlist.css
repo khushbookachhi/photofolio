@@ -1,0 +1,20 @@
+.album {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.albumList {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card:hover {
+    background-color: rgb(245, 139, 201) !important;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+
+.card img {
+    height: 7rem !important;
+}
