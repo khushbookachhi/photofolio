@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useState } from "react";
+import React, {useEffect, useState } from "react";
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import "../css/addform.css";
@@ -59,7 +59,8 @@ export default function ImageForm(props) {
   useEffect(() => {
     // Fetch data on component mount
     fetchData();
-  }, [albmId]); // Fetch data when albmId changes
+    // eslint-disable-next-line
+  }, []); 
 
   useEffect(() => {
     // Set updateData when imageObj changes
